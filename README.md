@@ -1,6 +1,6 @@
 # MachineUnderstandsTextData
 
-Welcome to theMachineUnderstandsTextData Repository! This repository contains Jupyter notebooks that cover various fundamental concepts and techniques in Natural Language Processing (NLP). Each notebook is designed to be self-contained, providing explanations and examples to help you understand and implement basic NLP tasks.
+Welcome to the MachineUnderstandsTextData Repository! This repository contains Jupyter notebooks that cover various fundamental concepts and techniques in Natural Language Processing (NLP). Each notebook is designed to be self-contained, providing explanations and examples to help you understand and implement basic NLP tasks.
 
 ## Table of Contents
 
@@ -20,6 +20,21 @@ Welcome to theMachineUnderstandsTextData Repository! This repository contains Ju
 4. [Emojification](#emojification)
    - [Removing Emojis](#removing-emojis)
    - [Replacing Emojis with Text](#replacing-emojis-with-text)
+5. [Sentiment Analysis](#sentiment-analysis)
+   - [AFINN Sentiment Analysis](#afinn-sentiment-analysis)
+   - [General Sentiment Analysis](#general-sentiment-analysis)
+6. [Named Entity Recognition](#named-entity-recognition)
+7. [Similarity Checking](#similarity-checking)
+8. [Spam Detection](#spam-detection)
+9. [Transformer Models](#transformer-models)
+   - [Text Summarization](#text-summarization)
+   - [Text Generation](#text-generation)
+10. [Translation](#translation)
+11. [Vectorization](#vectorization)
+12. [API Calling](#api-calling)
+13. [Grammar Checking](#grammar-checking)
+14. [N-Grams](#n-grams)
+15. [Demojification](#demojification)
 
 ## Data Preprocessing
 
@@ -73,10 +88,64 @@ Uses the `demoji` library to identify and remove emojis from the text.
 ### Replacing Emojis with Text
 Uses the `emoji` library to replace emojis with their corresponding text descriptions.
 
+## Sentiment Analysis
+
+Sentiment analysis determines the sentiment or emotional tone of a piece of text. The following notebooks cover different approaches:
+
+### AFINN Sentiment Analysis
+The [AFINN Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_affin_sentimental_analysis.ipynb) uses the AFINN lexicon to classify sentiment into positive, negative, or neutral.
+
+### General Sentiment Analysis
+The [General Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_sentimental_analysis.ipynb) covers broader sentiment analysis techniques and models.
+
+## Named Entity Recognition
+
+Named Entity Recognition (NER) identifies and classifies key entities in text, such as names of people, organizations, and locations. The [Named Entity Recognition Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_name_entity_recognition.ipynb) demonstrates how to recognize and classify entities using NER techniques.
+
+## Similarity Checking
+
+Similarity checking involves determining how similar two pieces of text are. The [Similarity Checker Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_similarity_checker.ipynb) explores various methods to compute textual similarity.
+
+## Spam Detection
+
+Spam detection identifies whether a piece of text is spam or not. The [Spam Detection Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_spam_detection.ipynb) covers techniques for classifying text as spam or non-spam.
+
+## Transformer Models
+
+Transformer models are advanced neural network architectures for NLP tasks. The following notebooks cover different applications:
+
+### Text Summarization
+The [Text Summarization Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_transformer_summarization.ipynb) demonstrates how to summarize text using transformer models.
+
+### Text Generation
+The [Text Generation Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_transformer_text_generation.ipynb) showcases generating coherent and contextually relevant text with transformer models.
+
+## Translation
+
+The [Translation Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_translator.ipynb) covers techniques for translating text between different languages.
+
+## Vectorization
+
+Vectorization converts text into numerical representations. The [Vectorization Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_vectorizer.ipynb) explains different vectorization techniques, such as Bag of Words and TF-IDF.
+
+## API Calling
+
+The [API Calling Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_api_calling.ipynb) demonstrates how to interact with external APIs to retrieve and manipulate text data.
+
+## Grammar Checking
+
+The [Grammar Checking Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_grammar_checker.ipynb) covers techniques for identifying and correcting grammatical errors in text.
+
+## N-Grams
+
+The [N-Grams Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_n_grams.ipynb) explains the concept of n-grams and their use in text analysis and modeling.
+
+## Demojification
+
+Demojification involves handling emojis in text data, either by removing or replacing them. For more details, refer to the [Demojification Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/nlp_demojification.ipynb).
+
 ---
 
 Feel free to explore the notebooks and enhance your understanding of basic NLP concepts. If you have any questions or suggestions, please open an issue or submit a pull request.
 
 Happy Learning!
-
-
