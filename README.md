@@ -35,33 +35,44 @@ Welcome to the MachineUnderstandsTextData Repository! This repository contains J
 13. [Grammar Checking](#grammar-checking)
 14. [N-Grams](#n-grams)
 15. [Demojification](#demojification)
+16. [Python Gemini Integration](#python-gemini-integration)
+      - [Python Gemini Notebook](#python-gemini-notebook)
+      - [Gemini TKinter Script](#gemini-tkinter-script)
 
 ## Data Preprocessing
 
 Data preprocessing is a crucial step in NLP to clean and prepare text data for analysis and modeling. The following preprocessing steps are covered in the [Data Preprocessing Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_data_processing.ipynb):
 
 ### Text Cleaning
+
 Using regular expressions (regex), unwanted characters and patterns are removed from the text to make it clean and uniform.
 
 ### Converting Text to Lowercase
+
 Converts all characters in the text to lowercase to ensure uniformity and avoid case sensitivity issues during analysis.
 
 ### Removing Whitespace and Non-Textual Characters
+
 Removes unnecessary whitespace and non-textual characters to streamline the text.
 
 ### Removing Digits
+
 Digits are removed from the text to focus on the textual content.
 
 ### Tokenization
+
 Splits the text into individual words or tokens, which are the basic units for further NLP tasks.
 
 ### Stemming
+
 Reduces words to their base or root form by removing suffixes. For example, "running" becomes "run".
 
 ### Lemmatization
+
 Similar to stemming, but more sophisticated. It reduces words to their dictionary form. For example, "running" becomes "run" and "better" becomes "good".
 
 ### Part of Speech Tagging
+
 Identifies and labels the part of speech (e.g., noun, verb, adjective) for each token in the text.
 
 ## Web Scraping
@@ -69,9 +80,11 @@ Identifies and labels the part of speech (e.g., noun, verb, adjective) for each 
 Web scraping is the process of extracting data from websites. The following web scraping tasks are covered in the [Web Scraping Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_web_scraping.ipynb):
 
 ### Wikipedia Scraping using Beautiful Soup
+
 Extracts data from Wikipedia pages using the Beautiful Soup library.
 
 ### Amazon Scraping using Beautiful Soup
+
 Extracts product data from Amazon using the Beautiful Soup library.
 
 ## Word Cloud
@@ -83,9 +96,11 @@ A word cloud is a visual representation of text data, where the size of each wor
 Emojification involves handling emojis in text data, either by removing them or replacing them with corresponding text. The following tasks are covered in the [Emojification Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_demojification.ipynb):
 
 ### Removing Emojis
+
 Uses the `demoji` library to identify and remove emojis from the text.
 
 ### Replacing Emojis with Text
+
 Uses the `emoji` library to replace emojis with their corresponding text descriptions.
 
 ## Sentiment Analysis
@@ -93,9 +108,11 @@ Uses the `emoji` library to replace emojis with their corresponding text descrip
 Sentiment analysis determines the sentiment or emotional tone of a piece of text. The following notebooks cover different approaches:
 
 ### AFINN Sentiment Analysis
+
 The [AFINN Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_affin_sentimental_analysis.ipynb) uses the AFINN lexicon to classify sentiment into positive, negative, or neutral.
 
 ### General Sentiment Analysis
+
 The [General Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_sentimental_analysis.ipynb) covers broader sentiment analysis techniques and models.
 
 ## Named Entity Recognition
@@ -115,9 +132,11 @@ Spam detection identifies whether a piece of text is spam or not. The [Spam Dete
 Transformer models are advanced neural network architectures for NLP tasks. The following notebooks cover different applications:
 
 ### Text Summarization
+
 The [Text Summarization Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_transformer_summarization.ipynb) demonstrates how to summarize text using transformer models.
 
 ### Text Generation
+
 The [Text Generation Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_transformer_text_generation.ipynb) showcases generating coherent and contextually relevant text with transformer models.
 
 ## Translation
@@ -143,6 +162,16 @@ The [N-Grams Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/
 ## Demojification
 
 Demojification involves handling emojis in text data, either by removing or replacing them. For more details, refer to the [Demojification Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_demojification.ipynb).
+
+## Python Gemini Integration
+
+### Python Gemini Notebook
+
+The [Python Gemini Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_gemini_python_integration.ipynb) contains the code for using Gemini through Python.
+
+### Gemini TKinter Script
+
+The [Gemini TKinter Script](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/prompt_generator_tkinter.py) contains the script to run Gemini through Python using an interface.
 
 ---
 
