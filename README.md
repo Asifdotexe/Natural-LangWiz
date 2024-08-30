@@ -142,6 +142,9 @@ The [Text Summarization Notebook](https://github.com/Asifdotexe/NaturalLangWiz/b
 
 The [Text Generation Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_transformer_text_generation.ipynb) showcases generating coherent and contextually relevant text with transformer models.
 
+### Emotion Analysis
+The [Emotion Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_transformer_emotion_analysis.ipynb) showcases sentimental analysis using transformer models
+
 ## Translation
 
 The [Translation Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_translator.ipynb) covers techniques for translating text between different languages.
