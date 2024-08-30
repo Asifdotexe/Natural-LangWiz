@@ -1,6 +1,8 @@
-# MachineUnderstandsTextData
+# Natural LangWiz
 
-Welcome to the MachineUnderstandsTextData Repository! This repository contains Jupyter notebooks that cover various fundamental concepts and techniques in Natural Language Processing (NLP). Each notebook is designed to be self-contained, providing explanations and examples to help you understand and implement basic NLP tasks.
+Welcome to the **Natural LangWiz** repository! Here, we perform a bit of language wizardry to make text data magically understandable for machines. With our collection of Jupyter notebooks, we delve into various aspects of Natural Language Processing (NLP), offering detailed explanations and hands-on examples.
+
+Think of us as modern-day language wizards, transforming raw text into structured data and insightful information—no magic wand required!
 
 ## Table of Contents
 
@@ -42,7 +44,7 @@ Welcome to the MachineUnderstandsTextData Repository! This repository contains J
 
 ## Data Preprocessing
 
-Data preprocessing is a crucial step in NLP to clean and prepare text data for analysis and modeling. The following preprocessing steps are covered in the [Data Preprocessing Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_data_processing.ipynb):
+Data preprocessing is a crucial step in NLP to clean and prepare text data for analysis and modeling. The following preprocessing steps are covered in the [Data Preprocessing Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_data_processing.ipynb):
 
 ### Text Cleaning
 
@@ -78,7 +80,7 @@ Identifies and labels the part of speech (e.g., noun, verb, adjective) for each 
 
 ## Web Scraping
 
-Web scraping is the process of extracting data from websites. The following web scraping tasks are covered in the [Web Scraping Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_web_scraping.ipynb):
+Web scraping is the process of extracting data from websites. The following web scraping tasks are covered in the [Web Scraping Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_web_scraping.ipynb):
 
 ### Wikipedia Scraping using Beautiful Soup
 
@@ -90,11 +92,11 @@ Extracts product data from Amazon using the Beautiful Soup library.
 
 ## Word Cloud
 
-A word cloud is a visual representation of text data, where the size of each word indicates its frequency or importance. The [Word Cloud Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_word_cloud.ipynb) demonstrates how to create a word cloud from a given corpus.
+A word cloud is a visual representation of text data, where the size of each word indicates its frequency or importance. The [Word Cloud Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_word_cloud.ipynb) demonstrates how to create a word cloud from a given corpus.
 
 ## Emojification
 
-Emojification involves handling emojis in text data, either by removing them or replacing them with corresponding text. The following tasks are covered in the [Emojification Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_demojification.ipynb):
+Emojification involves handling emojis in text data, either by removing them or replacing them with corresponding text. The following tasks are covered in the [Emojification Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_demojification.ipynb):
 
 ### Removing Emojis
 
@@ -110,23 +112,23 @@ Sentiment analysis determines the sentiment or emotional tone of a piece of text
 
 ### AFINN Sentiment Analysis
 
-The [AFINN Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_affin_sentimental_analysis.ipynb) uses the AFINN lexicon to classify sentiment into positive, negative, or neutral.
+The [AFINN Sentiment Analysis Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_affin_sentimental_analysis.ipynb) uses the AFINN lexicon to classify sentiment into positive, negative, or neutral.
 
 ### General Sentiment Analysis
 
-The [General Sentiment Analysis Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_sentimental_analysis.ipynb) covers broader sentiment analysis techniques and models.
+The [General Sentiment Analysis Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_sentimental_analysis.ipynb) covers broader sentiment analysis techniques and models.
 
 ## Named Entity Recognition
 
-Named Entity Recognition (NER) identifies and classifies key entities in text, such as names of people, organizations, and locations. The [Named Entity Recognition Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_name_entity_recognition.ipynb) demonstrates how to recognize and classify entities using NER techniques.
+Named Entity Recognition (NER) identifies and classifies key entities in text, such as names of people, organizations, and locations. The [Named Entity Recognition Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_name_entity_recognition.ipynb) demonstrates how to recognize and classify entities using NER techniques.
 
 ## Similarity Checking
 
-Similarity checking involves determining how similar two pieces of text are. The [Similarity Checker Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_similarity_checker.ipynb) explores various methods to compute textual similarity.
+Similarity checking involves determining how similar two pieces of text are. The [Similarity Checker Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_similarity_checker.ipynb) explores various methods to compute textual similarity.
 
 ## Spam Detection
 
-Spam detection identifies whether a piece of text is spam or not. The [Spam Detection Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_spam_detection.ipynb) covers techniques for classifying text as spam or non-spam.
+Spam detection identifies whether a piece of text is spam or not. The [Spam Detection Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_spam_detection.ipynb) covers techniques for classifying text as spam or non-spam.
 
 ## Transformer Models
 
@@ -134,49 +136,49 @@ Transformer models are advanced neural network architectures for NLP tasks. The 
 
 ### Text Summarization
 
-The [Text Summarization Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_transformer_summarization.ipynb) demonstrates how to summarize text using transformer models.
+The [Text Summarization Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_transformer_summarization.ipynb) demonstrates how to summarize text using transformer models.
 
 ### Text Generation
 
-The [Text Generation Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_transformer_text_generation.ipynb) showcases generating coherent and contextually relevant text with transformer models.
+The [Text Generation Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_transformer_text_generation.ipynb) showcases generating coherent and contextually relevant text with transformer models.
 
 ## Translation
 
-The [Translation Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_translator.ipynb) covers techniques for translating text between different languages.
+The [Translation Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_translator.ipynb) covers techniques for translating text between different languages.
 
 ## Vectorization
 
-Vectorization converts text into numerical representations. The [Vectorization Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_vectorizer.ipynb) explains different vectorization techniques, such as Bag of Words and TF-IDF.
+Vectorization converts text into numerical representations. The [Vectorization Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_vectorizer.ipynb) explains different vectorization techniques, such as Bag of Words and TF-IDF.
 
 ## API Calling
 
-The [API Calling Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_api_calling.ipynb) demonstrates how to interact with external APIs to retrieve and manipulate text data.
+The [API Calling Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_api_calling.ipynb) demonstrates how to interact with external APIs to retrieve and manipulate text data.
 
 ## Grammar Checking
 
-The [Grammar Checking Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_grammar_checker.ipynb) covers techniques for identifying and correcting grammatical errors in text.
+The [Grammar Checking Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_grammar_checker.ipynb) covers techniques for identifying and correcting grammatical errors in text.
 
 ## N-Grams
 
-The [N-Grams Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/code/main/nlp_n_grams.ipynb) explains the concept of n-grams and their use in text analysis and modeling.
+The [N-Grams Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/code/main/nlp_n_grams.ipynb) explains the concept of n-grams and their use in text analysis and modeling.
 
 ## Demojification
 
-Demojification involves handling emojis in text data, either by removing or replacing them. For more details, refer to the [Demojification Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_demojification.ipynb).
+Demojification involves handling emojis in text data, either by removing or replacing them. For more details, refer to the [Demojification Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_demojification.ipynb).
 
 ## Python Gemini Integration
 
 ### Python Gemini Notebook
 
-The [Python Gemini Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_gemini_python_integration.ipynb) contains the code for using Gemini through Python.
+The [Python Gemini Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_gemini_python_integration.ipynb) contains the code for using Gemini through Python.
 
 ### Gemini TKinter Script
 
-The [Gemini TKinter Script](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/prompt_generator_tkinter.py) contains the script to run Gemini through Python using an interface.
+The [Gemini TKinter Script](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/prompt_generator_tkinter.py) contains the script to run Gemini through Python using an interface.
 
 ## Topic Modelling
 
-The [Topic Modelling Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_topic_modelling.ipynb) contains explaination and code for topic modelling, where we have used LDA (Latent Dirichlet Allocation) is used to discover topics within the corpus and also performed visualization using pyLDAviz
+The [Topic Modelling Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_topic_modelling.ipynb) contains explanation and code for topic modelling, where we have used LDA (Latent Dirichlet Allocation) to discover topics within the corpus and also performed visualization using pyLDAviz.
 
 ---
 
