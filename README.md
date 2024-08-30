@@ -31,6 +31,7 @@ Think of us as modern-day language wizards, transforming raw text into structure
 9. [Transformer Models](#transformer-models)
    - [Text Summarization](#text-summarization)
    - [Text Generation](#text-generation)
+   - [Emotion Analysis](#emotion-analysis)
 10. [Translation](#translation)
 11. [Vectorization](#vectorization)
 12. [API Calling](#api-calling)
