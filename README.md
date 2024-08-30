@@ -38,6 +38,7 @@ Welcome to the MachineUnderstandsTextData Repository! This repository contains J
 16. [Python Gemini Integration](#python-gemini-integration)
       - [Python Gemini Notebook](#python-gemini-notebook)
       - [Gemini TKinter Script](#gemini-tkinter-script)
+17. [Topic Modelling](#topic-modelling)
 
 ## Data Preprocessing
 
@@ -172,6 +173,10 @@ The [Python Gemini Notebook](https://github.com/Asifdotexe/MachineUnderstandsTex
 ### Gemini TKinter Script
 
 The [Gemini TKinter Script](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/prompt_generator_tkinter.py) contains the script to run Gemini through Python using an interface.
+
+## Topic Modelling
+
+The [Topic Modelling Notebook](https://github.com/Asifdotexe/MachineUnderstandsTextData/blob/main/code/nlp_topic_modelling.ipynb) contains explaination and code for topic modelling, where we have used LDA (Latent Dirichlet Allocation) is used to discover topics within the corpus and also performed visualization using pyLDAviz
 
 ---
 
