@@ -180,6 +180,8 @@ The [Python Gemini Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/m
 
 The [Gemini TKinter Script](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/prompt_generator_tkinter.py) contains the script to run Gemini through Python using an interface.
 
+![Gemini Chat Interface](gemini_chat_interface.png)
+
 ## Topic Modelling
 
 The [Topic Modelling Notebook](https://github.com/Asifdotexe/NaturalLangWiz/blob/main/code/nlp_topic_modelling.ipynb) contains explanation and code for topic modelling, where we have used LDA (Latent Dirichlet Allocation) to discover topics within the corpus and also performed visualization using pyLDAviz.
