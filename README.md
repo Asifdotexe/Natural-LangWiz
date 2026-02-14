@@ -14,18 +14,32 @@ This collection contains **24 unique NLP experiments**, each designed to build p
 ***
 
 ## 🚀 Setup and Installation
+
+### Prerequisites
+- **Python 3.10+**
+- **Poetry** (Package Manager) - [Installation Guide](https://python-poetry.org/docs/#installation)
+
+### Installation
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Asifdotexe/Natural-LangWiz.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
     cd Natural-LangWiz
     ```
-3.  **Install the required dependencies:**
+
+3.  **Install dependencies:**
     ```bash
-    pip install -r requirements.txt
+    poetry install
     ```
+
+### Running the Code
+- **Run a script:**
+  ```bash
+  poetry run python code/main.py
+  ```
+- **Launch Jupyter Notebooks:**
+  ```bash
+  poetry run jupyter notebook
+  ```
 
 ***
 
