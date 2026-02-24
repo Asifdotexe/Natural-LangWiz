@@ -13,7 +13,7 @@ This collection contains **24 unique NLP experiments**, each designed to build p
 
 ***
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 - **Python 3.10+**
@@ -43,7 +43,7 @@ This collection contains **24 unique NLP experiments**, each designed to build p
 
 ***
 
-## 🧪 NLP Experiments & Notebooks
+## NLP Experiments & Notebooks
 
 | Category | Concept & Notebook | Description |
 | :--- | :--- | :--- |
